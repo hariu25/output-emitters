@@ -1,0 +1,9 @@
+<div style="text-align: center"><h3>Examples 1</h3></div>
+
+<div style="text-align: center">
+  <app-child-component (myData)="childData($event)"></app-child-component>
+</div>
+
+
+<app-child-component (data)="sendData($event)"></app-child-component>
+{{parentData}}
